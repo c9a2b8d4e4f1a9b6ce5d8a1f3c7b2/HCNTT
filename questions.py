@@ -4,7 +4,7 @@ import os
 from decouple import config
 
 MAX_REPO = 50
-SOURCE_REPO = "hashgraph/hiero-consensus-node"
+SOURCE_REPO = "hiero-ledger/hiero-consensus-node"
 REPO_NAME = "hiero-consensus-node"
 run_number = os.environ.get('GITHUB_RUN_NUMBER', '0')
 
